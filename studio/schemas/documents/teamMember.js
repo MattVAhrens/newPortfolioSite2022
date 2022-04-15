@@ -1,7 +1,7 @@
 export default {
-    name: 'sponsor',
-    title: 'Sponsor',
-    type: 'object',
+    name: 'teamMember',
+    title: 'Team Member',
+    type: 'document',
     fields: [
       {
         name: 'name',
@@ -9,8 +9,8 @@ export default {
         type: 'string'
       },
       {
-        name: 'url',
-        title: 'URL',
+        name: 'linkedin',
+        title: 'LinkedIn',
         type: 'url'
       }
     ]
